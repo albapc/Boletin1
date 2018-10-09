@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package boletin1_5;
 
-/**
- *
- * @author Alba
- */
+import java.util.Scanner;
+
+
 public class Boletin1_5 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner ler= new Scanner(System.in);
+        float metros=0, millas_marinas=0;
+        System.out.println("Introduce el número en millas marinas");
+        millas_marinas=ler.nextFloat();
+        metros= millas_marinas*1852f;
+        System.out.println(millas_marinas+" millas marinas son "+metros+" metros.");
     }
     
 }
