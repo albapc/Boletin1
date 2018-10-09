@@ -1,21 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package boletin1_4;
 
-/**
- *
- * @author Alba
- */
+import java.util.Scanner;
+
+
 public class Boletin1_4 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+       float num1=0, num2=0;
+       
+       Scanner operacions = new Scanner (System.in);
+       System.out.println("Introduce dos números:");
+       num1=operacions.nextFloat();
+       num2=operacions.nextFloat();
+       
+       float suma= num1+num2;
+       System.out.println("Suma= "+suma);
+       
+       float resta= num1-num2;
+       System.out.println("Resta= "+resta);
+       
+       float producto= num1*num2;
+       System.out.println("Producto= "+producto);
+       
+       float cociente= num1/num2;
+       System.out.println("Cociente= "+cociente);
     }
     
 }
