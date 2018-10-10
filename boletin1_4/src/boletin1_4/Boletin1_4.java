@@ -8,20 +8,20 @@ public class Boletin1_4 {
 
     
     public static void main(String[] args) {
-       float num1=0, num2=0;
+       double num1=0, num2=0;
        
        Scanner operacions = new Scanner (System.in);
        System.out.println("Introduce dos números:");
-       num1=operacions.nextFloat();
-       num2=operacions.nextFloat();
+       num1=operacions.nextDouble();
+       num2=operacions.nextDouble();
        
-       float suma= num1+num2;
+       double suma= num1+num2;
        System.out.println("Suma= "+suma);
        
-       float resta= num1-num2;
+       double resta= num1-num2;
        System.out.println("Resta= "+resta);
        
-       float producto= num1*num2;
+       double producto= num1*num2;
        System.out.println("Producto= "+producto);
        
        float cociente= num1/num2;
